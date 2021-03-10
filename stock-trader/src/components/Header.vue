@@ -18,7 +18,9 @@
           Ações
         </v-btn>
       </v-toolbar-items>
+      
       <v-spacer></v-spacer>
+
       <v-toolbar-items>
         <v-btn flat>Finalizar o dia</v-btn>
           <v-menu offset-y>
