@@ -1,7 +1,7 @@
 <template>
   <v-layout row wrap>
     <Stock v-for="stock in stocks" :key="stock.id" :stock="stock" />
-    </v-layout>
+  </v-layout>
 </template>
 
 <script>
