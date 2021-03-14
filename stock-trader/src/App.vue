@@ -16,10 +16,8 @@ export default {
   components: {
     Header
   },
-  data () {
-    return {
-      //
-    }
-  }
+  created() {
+    this.$store.dispatch('initStocks')
+  },
 }
 </script>
