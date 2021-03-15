@@ -22,7 +22,7 @@
       <v-spacer></v-spacer>
 
       <v-toolbar-items>
-        <v-btn flat>Finalizar o dia</v-btn>
+        <v-btn flat @click="endDay">Finalizar o dia</v-btn>
         <v-menu offset-y>
           <v-btn flat slot="activator">Salvar & Carregar </v-btn>
           <v-list>
