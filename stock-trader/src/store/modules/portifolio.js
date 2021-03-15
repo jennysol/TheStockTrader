@@ -25,6 +25,7 @@ mutations: {
         }
         state.funds += stockPrice * quantity
     },
+    // Get
     setPortfolio(state, portfolio) {
         state.funds = portfolio.funds
         state.stocks = portfolio.stockPortfolio ? portfolio.stockPortfolio : []
